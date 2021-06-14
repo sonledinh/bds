@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Avo';
+    src: url('../fonts/avo/UTMAvo-Italic.woff2') format('woff2'),
+        url('../fonts/avo/UTMAvo-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avo';
+    src: url('../fonts/avo/UTMAvo-BoldItalic.woff2') format('woff2'),
+        url('../fonts/avo/UTMAvo-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avo';
+    src: url('../fonts/avo/UTMAvoBold.woff2') format('woff2'),
+        url('../fonts/avo/UTMAvoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avo';
+    src: url('../fonts/avo/UTMAvo.woff2') format('woff2'),
+        url('../fonts/avo/UTMAvo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('../fonts/play/PlayfairDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.f-play {
+    font-family: 'play';
+}
+
+@keyframes myScale {
+  0%   {transform: scale(0.6);}
+  25%  {transform: scale(0.8);}
+  50%  {transform: scale(0.6);}
+  75%  {transform: scale(0.8);}
+  100% {transform: scale(0.6);}
+}
+
+@keyframes coverbanner {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
